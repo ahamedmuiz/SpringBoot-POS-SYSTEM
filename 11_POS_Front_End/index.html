@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS System Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); height: 100vh; display: flex; align-items: center; }
+        .dashboard-card { transition: transform 0.3s, box-shadow 0.3s; border: none; border-radius: 15px; text-decoration: none;}
+        .dashboard-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.15); }
+        .title-banner { background: #2c3e50; color: white; padding: 20px; border-radius: 10px; margin-bottom: 40px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="title-banner">
+        <h1 class="fw-bold m-0">⚡  POS System</h1>
+    </div>
+    <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+            <a href="pages/customer.html" class="card dashboard-card bg-primary text-white text-center p-4">
+                <div class="card-body">
+                    <h3 class="fw-bold">👥 Customers</h3>
+                    <p>Manage your client base</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="pages/item.html" class="card dashboard-card bg-success text-white text-center p-4">
+                <div class="card-body">
+                    <h3 class="fw-bold">📦 Items</h3>
+                    <p>Manage your inventory</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="pages/place-order.html" class="card dashboard-card bg-warning text-dark text-center p-4">
+                <div class="card-body">
+                    <h3 class="fw-bold">🛒 Place Order</h3>
+                    <p>Process new transactions</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
