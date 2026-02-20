@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    loadAllCustomers(); // Load table on start
+    loadAllCustomers();
 });
 
 function loadAllCustomers() {

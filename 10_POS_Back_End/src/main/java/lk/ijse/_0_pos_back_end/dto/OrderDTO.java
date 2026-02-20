@@ -13,5 +13,5 @@ public class OrderDTO {
     private String orderId;
     private LocalDate orderDate;
     private String customerId;
-    private List<OrderDetailDTO> orderDetails; // List of items in the order
+    private List<OrderDetailDTO> orderDetails;
 }
